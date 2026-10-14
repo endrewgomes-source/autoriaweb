@@ -1,0 +1,43 @@
+*{
+  color: black;
+  background-color: white;
+}
+.alinhamento{
+  text-align: center;
+}
+.alinhamento table{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.alinhamento li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.alinhamento h1{
+  font-size: 25px;
+}
+
+/*pra celular*/
+
+@media (max-width:600px){
+  .alinhamento {
+    font-size: 20px;
+  }
+  .alinhamento h1{
+    font-size: 25px;
+  }
+}
+
+/*pra tablet*/
+
+@media (min-width: 601px) and (max-width: 1024px){
+  .alinhamento {
+    font-size: 30px;
+  }
+  .alinhamento h1{
+    font-size: 35px;
+  }
+}
